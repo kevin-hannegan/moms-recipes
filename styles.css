@@ -1,0 +1,40 @@
+body {
+    font-family: Futura, Helvetica, sans-serif;
+    font-size: 14pt;
+    background-color:aliceblue;
+    padding: 30px;
+}
+
+.fn {
+    font-size: 18.0pt;
+    font-family: Futura, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-item {
+    padding: 15px;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+@media (max-width: 600px) {
+    #intro {
+        flex-direction: column-reverse; 
+    }
+
+    img {
+        width: 250px;
+    }
+
+    body {
+        margin: 0;
+    }
+};
